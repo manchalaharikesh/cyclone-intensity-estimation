@@ -6,8 +6,6 @@ Developing a Convolutional Neural Network (CNN) method for estimating cyclone in
 
 The dataset consists of the images of various cyclones (of 30-minute intervals) of the Indian peninsula and its cyclone intensities estimated at every 6hr interval. The collection is of IR images that are suitable for collecting images of cyclones even at night. The missing cyclone intensity values are imputed by time-series data analysis.  The dataset is collected from the Meteorological and oceanographic Satellite data archive center (MOSDAC) of ISRO. The dataset consists of 17112 images. 
 
-The sample images of dataset used can be found at: https://shrtco.de/Lxm8WD
-
 Visit MOSDAC at: https://www.mosdac.gov.in/
 
 
@@ -25,7 +23,7 @@ iv.  Achieved best result for VGG16-128×64×1 model.
 
 v.  This architecture is further used with Neural Architecture Search (NAS) to find optimal FCL setup. Among the suggested FCL setups by NAS we achieved best performance for VGG16-128×128×1. 
 
-<img src="https://github.com/manchalaharikesh/Cylone-Intensity-Estimation/blob/main/Cyclone-Intensity-Estimation-Backend/static/Methodology_Cyclone_Intensity_Estimation.png?raw=true">
+<img src="https://github.com/manchalaharikesh/cyclone-intensity-estimation/blob/main/Cyclone-Intensity-Estimation-Backend/static/Methodology_Cyclone_Intensity_Estimation.png?raw=true">
 
 ## Results
 
