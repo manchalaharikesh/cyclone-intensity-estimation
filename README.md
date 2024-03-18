@@ -1,4 +1,4 @@
-# Cylone_Detection_Intensity_Estimation
+# Cylone-Intensity-Estimation
 
 Developing a Convolutional Neural Network (CNN) method for estimating cyclone intensity using infrared band satellite images sourced from the INSAT-3D satellite.
 
