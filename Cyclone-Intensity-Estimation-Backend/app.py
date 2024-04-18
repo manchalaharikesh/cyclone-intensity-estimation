@@ -36,10 +36,11 @@ def uploadImage():
         session['original_image'] = cv2.imdecode(image_array, cv2.IMREAD_COLOR)
 
         cyclone_corr = detectCyclone(img_bytes)
+        print(cyclone_corr)
+        if cyclone_corr[0] is None:
+            return jsonify({"error": "No Instance of Cyclone Found"})
         session['roi_image'] = extractROI(session['original_image'], cyclone_corr)
 
-        if cyclone_corr is None:
-            return jsonify({"error": "No Instance of Cyclone Found"})
         
         session['intensity'] = estimateIntensity(session['intensity_model'], session['roi_image'])
 
