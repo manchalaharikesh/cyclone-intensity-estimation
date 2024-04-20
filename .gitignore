@@ -1,6 +1,5 @@
 .env
 .DS_Store
-test-images
 node_modules
 venv
 __pycache__
